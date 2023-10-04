@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: linear-gradient(to left, green, yellow);
+            margin-top: 100px;
+            display: grid;
+            justify-content:center;
+        }
+
+        div {
+            border: 2px solid white;
+            border-radius: 20px;
+            text-align: center;
+            width: fit-content;
+            padding: 15px;
+            color:white;
+            font-weight: bolder;
+        }
+
+        button {
+            width: fit-content;
+            height: 40px;
+            margin: 10px;
+            font-size: 15px;
+            
+        }
+    </style>
+    <script src="age.js"></script>
+</head>
+
+<body>
+    <div>
+        Current year : <input id="value1" value="" style="margin-left: 15px;"><br><br>
+        Your birth year : <input id="value2" value=""><br><br>
+        Your age is: <b id="value3"></b><br><br>
+        <hr style="border-color:white;">
+        <button onclick="sub()">Display my age....</button><br>
+        
+    </div>
+</body>
+
+</html>

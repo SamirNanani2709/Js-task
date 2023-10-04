@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: linear-gradient(to left, green, yellow);
+            margin-top: 100px;
+            display: grid;
+            justify-content:center;
+        }
+
+        div {
+            border: 2px solid white;
+            border-radius: 20px;
+            text-align: center;
+            width: fit-content;
+            padding: 15px;
+            color:white;
+            font-weight: bolder;
+        }
+
+        button {
+            width: 100px;
+            height: 40px;
+            margin: 10px;
+            font-size: 25px;
+        }
+    </style>
+    <script src="Arithmatic_op.js"></script>
+</head>
+
+<body>
+    <div>
+        First value : <input id="value1" value="" style="margin-left: 15px;"><br><br>
+        Second value : <input id="value2" value=""><br><br>
+        Result: <b id="value3"></b><br><br>
+        <hr style="border-color:white;">
+        <button onclick="add()">+</button><br>
+        <button onclick="sub()">-</button><br>
+        <button onclick="mul()">*</button><br>
+        <button onclick="div()">/</button>
+    </div>
+</body>
+
+</html>

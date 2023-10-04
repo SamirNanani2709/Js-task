@@ -1,0 +1,111 @@
+body {
+    background-image: linear-gradient(to right, #43cbff, #9708cc);
+    font-family: 'Poppins';
+    /* overflow-x: hidden!important; */
+
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+    height: 70px;
+    padding: 10px;
+}
+footer{
+    background-color: white;
+    height: 70px;
+}
+*{
+    font-size: 15px;
+}
+
+input[type=text],
+[type=date],
+[type=email],
+[type=password],
+select,
+textarea {
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    width: 600px;
+    margin-top: 40px;
+    color: black;
+    height: 25px;
+}
+
+input[type=radio] {
+    margin-left: -385px;
+    margin-top: 40px;
+}
+
+.checkboxes label {
+    display: inline-block;
+    margin: 0px 25px 0px 20px;
+
+  }
+  .checkboxes input {
+    vertical-align: middle;
+  }
+  .checkboxes label span {
+    vertical-align: middle;
+  }
+label {
+    color: gray;
+}
+
+.reg {
+    background-color: white;
+    width: 700px;
+    height: fit-content;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button {
+    background-image: linear-gradient(to right, #43cbff, #9708cc);
+    margin-top: 70px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    color: white;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width:520px) {
+    .reg {
+        width: 300px;
+    }
+
+    input[type=text],
+    [type=date],
+    [type=email],
+    [type=password],
+    select,
+    textarea {
+        width: 250px;
+    }
+
+    input[type=radio] {
+        margin-left: -7px;
+    }
+
+    .checkboxes label {
+        display: block;
+        text-align: left;
+        margin-left: 15px;
+      }
+
+     
+}

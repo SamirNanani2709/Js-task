@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to right, #43cbff,#9708cc);
+    display:flex;
+    justify-content: center;
+    margin-top: 180px;
+    /* overflow-x: hidden!important; */
+}
+input{
+    border: none;
+    border-bottom: 1px solid gray ;
+    background-color: transparent;
+    width: 290px;
+    height: 28px;
+}
+.reg{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+button{
+    background-image: linear-gradient(to right, #43cbff,#9708cc);
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid gray ;
+    color: white;
+}
+@media(max-width:320px){
+    .reg{
+        width: 250px;
+    }
+    input{
+        width: 230px;
+    }
+}
